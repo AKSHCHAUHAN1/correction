@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <title>BriefBox</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><span>Brief</span>Box</div>
+    </div>
+    <div class="container">
+        <form id="summarizeForm">
+            <div class="step">1. Paste the YouTube video link you want to summarize</div>
+            <input id="videoUrl" type="text" placeholder="Paste YouTube video link here..." required>
+            <div class="step">2. Click the Generate Summary button</div>
+            <button type="submit" id="generateBtn">Generate Summary</button>
+            <div class="step">3. Read the summarized content below</div>
+            <div id="summaryResult" class="output-box">Your video summary will appear here...</div>
+            <div class="note">Note: Summaries are based on video transcripts and may vary in accuracy.</div>
+        </form>
+    </div>
+</body>
+</html>
